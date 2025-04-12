@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9a6a6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.container .tenor-gif-embed {
+  max-width: 200px;
+}
+
+.container .btn {
+  display: flex;
+  gap: 25px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #111;
+  background: #fff;
+  padding: 10px 25px;
+  border-radius: 66px;
+  box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+}
+
+/* style.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffe0ec, #ffc9de);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 20px;
+  animation: fadeIn 2s ease;
+}
+
+.tenor-gif-embed {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.8rem;
+  color: #ff4081;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 25px;
+  background-color: #ff4081;
+  color: white;
+  transition: 0.3s;
+  font-weight: bold;
+  box-shadow: 0 6px 15px rgba(255, 64, 129, 0.3);
+}
+
+.btn a:hover {
+  background-color: #e91e63;
+  transform: scale(1.05);
+}
+
+p {
+  font-size: 1.2rem;
+  color: #ff6f91;
+  font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-style: italic;
+  animation: pulseText 2s infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
